@@ -4,12 +4,12 @@
    contain the root `toctree` directive.
 
 ===========
-OpenClaw Robotics Integration Course
+OpenClaw
 ===========
 
 .. toctree::
    :maxdepth: 2
-   :caption: OpenClaw Robotics Integration Course
+   :caption: OpenClaw
 
    docs/1_OpenClaw_Overview.md
    docs/2_OpenClaw_Core_Concepts.md
