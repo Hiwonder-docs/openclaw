@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 ===========
-OpenClaw
+OpenClaw Robotics Integration Course
 ===========
 
 .. toctree::
