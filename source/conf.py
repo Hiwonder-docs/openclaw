@@ -84,7 +84,7 @@ def replace_gfm_callouts(app, docname, source):
 def setup(app):
     app.connect("source-read", replace_gfm_callouts)
 
-project = 'openclaw'
+project = 'OpenClaw Robotics Integration Course'
 copyright = '2025, Hiwonder'
 author = 'Hiwonder'
 release = 'v1.0'

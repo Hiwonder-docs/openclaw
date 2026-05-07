@@ -9,7 +9,7 @@ OpenClaw Robotics Integration Course
 
 .. toctree::
    :maxdepth: 2
-   :caption: OpenClaw
+   :caption: OpenClaw Robotics Integration Course
 
    docs/1_OpenClaw_Overview.md
    docs/2_OpenClaw_Core_Concepts.md
