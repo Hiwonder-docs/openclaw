@@ -2,7 +2,7 @@
 
 > [!NOTE]
 >
-> **Before starting this chapter, make sure the Telegram bot has been created and connected by following [Chapter 6 Telegram Application Configuration]().**
+> **Before starting this chapter, make sure the Telegram bot has been created and connected by following [Chapter 6. Telegram Application Configuration](https://wiki.hiwonder.com/projects/Openclaw/en/latest/docs/6_Telegram_Application_Configuration.html).**
 
 ## 7.1 Framework Setup for Ubuntu and the Main Workspace
 
@@ -42,7 +42,7 @@ All later procedures must follow these seven phases in order. No phase should be
 
 ## 7.2 Configure Skills for the main Agent
 
-This section creates the rule center first. Refer to [Chapter 5 Tool Debugging from Scratch](), create **SKILL.md**, then attach the **Skill** to **main**.
+This section creates the rule center first. Refer to [Chapter 5. Tool Debugging from Scratch](https://wiki.hiwonder.com/projects/Openclaw/en/latest/docs/5_Tool_Debugging_from_Scratch.html), create **SKILL.md**, then attach the **Skill** to **main**.
 
 * **Step 1: Create the Skill directory in Ubuntu**
 
@@ -359,7 +359,7 @@ The following section uses the format **file name, whether to create it, and wha
 
 | File | Path relative to the OpenClaw data root `~/.openclaw` | Description |
 |------|------------------------------------------------------|-------------|
-| **openclaw.json** | `openclaw.json` | The Telegram plugin and `channels.telegram`, such as `appId` and `appSecret`, are written by the wizard in Section [6.4 Connect Telegram to OpenClaw through the Plugin](). |
+| **openclaw.json** | `openclaw.json` | The Telegram plugin and `channels.telegram`, such as `appId` and `appSecret`, are written by the wizard in Section [6.4 Connect Telegram to OpenClaw through the Plugin](https://wiki.hiwonder.com/projects/Openclaw/en/latest/docs/6_Telegram_Application_Configuration.html#connect-telegram-to-openclaw-through-the-plugin). |
 
 For a separate **Docker Compose** deployment, create a new **`.env`** file in the project directory according to **skills/telegram-mail-orchestrator/DEPLOY-UBUNTU.md**. Place it in the same directory as **docker-compose.yml** and load it with `env_file: - .env`. The `telegram_*` variables and mail-related variables are described in [Section 7.2 Configure Skills for the main Agent](#p7-2). **Do not commit `.env` to Git.**
 
@@ -783,7 +783,7 @@ Memory model updated. Future handling will follow this preference.
 
 ## 7.8 Test the Telegram Application
 
-After the Telegram plugin configuration from [Section 6.4 Connect Telegram to OpenClaw through the Plugin]() is complete and the Skill and email files in this chapter are ready, use the following process to verify the **Telegram ↔ OpenClaw** connection. **Test the channel first, then test the email functions.**
+After the Telegram plugin configuration from [Section 6.4 Connect Telegram to OpenClaw through the Plugin](https://wiki.hiwonder.com/projects/Openclaw/en/latest/docs/6_Telegram_Application_Configuration.html#connect-telegram-to-openclaw-through-the-plugin) is complete and the Skill and email files in this chapter are ready, use the following process to verify the **Telegram ↔ OpenClaw** connection. **Test the channel first, then test the email functions.**
 
 1. **Restart the Gateway to apply the configuration**
 

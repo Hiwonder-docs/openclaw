@@ -8,7 +8,7 @@ The loop built in this chapter can be summarized as follows.
 >
 > **Trigger phrases for Today's briefing and city weather -> Agent selects a Skill -> Skill calls `web_fetch` or `web_search` step by step -> the response is assembled in a fixed format and returned.**
 
-The relationship can be reviewed based on [Chapter 1. OpenClaw Overview]() and [Chapter 2. OpenClaw Core Concepts]().
+The relationship can be reviewed based on [Chapter 1. OpenClaw Overview](https://wiki.hiwonder.com/projects/Openclaw/en/latest/docs/1_OpenClaw_Overview.html) and [Chapter 2. OpenClaw Core Concepts](https://wiki.hiwonder.com/projects/Openclaw/en/latest/docs/2_OpenClaw_Core_Concepts.html).
 
 - **Gateway**: Routes messages to the **test Agent**.
 - **Agent**: Decides when to use a **Skill** and which tools are required.
